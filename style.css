@@ -1,0 +1,520 @@
+html , body{
+  scroll-behavior: smooth;
+  height: 100vh;
+  margin: 0px;
+}
+
+a {
+  color: rgba(var(--bs-link-color-rgb), var(--bs-link-opacity, 1));
+  text-decoration: none !important;
+}
+
+#wrapper{
+  display: none;
+}
+
+header{
+position: absolute;
+height: 80px;
+ z-index: 1;
+
+}
+
+header img{
+      height: 200px;
+        margin: 10px auto;
+        /* margin-left: 15px; */
+        display: block;
+        padding: 5px;
+}
+
+header .logo{
+  display: flex;
+}
+
+.logo p{
+  position: relative;
+  top: 6.5vh;
+  margin-left: 2px;
+  margin-right: 4px;
+  font-size: 12px;
+  color: #fff;
+  font-family: Montserrat;
+}
+
+
+
+.section{
+  height: 100%;
+}
+.split1{
+  position: absolute;
+  height: 100%;
+  width: 60%;
+  left: 0px;
+}
+
+.split10{
+  position: absolute;
+  height: 80%;
+  width: 40%;
+  left: 0px;
+  padding: 10px;
+}
+.split1 img{
+  width: 80vw;
+  height: 100vh;
+}
+
+
+
+.split1 button{
+      display: block;
+        margin: auto;
+        position: absolute;
+        left: 5px;
+        bottom: 485px;
+        width: 190px;
+        height: 70px;
+        color: #111;
+        font-size: 14px;
+        font-family: Montserrat;
+        background-color: #fff;
+        border: 0px;
+        cursor: pointer;
+        transition: .5s;
+}
+
+.split1 button:hover{
+  color: #111;
+  background-color:black ;
+  color: white;
+}
+
+.split2{
+  position: absolute;
+  height: 100vh;
+  width: 20%;
+  right: 0px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.backgroundimg{
+  position: absolute;
+  width: 250px;
+    left: -100px;
+    top: 321px;
+}
+
+.split20{
+  position: absolute;
+  height: 80%;
+  width: 60%;
+  right: 0px;
+}
+
+.split2 button{
+  display: block;
+    margin: auto;
+
+  width: 100%;
+  height: 65px;
+  color: #111;
+  font-size: 14px;
+  font-family: Montserrat;
+  background-color: transparent;
+  border: 0px;
+  cursor:pointer;
+  transition: .5s;
+}
+.split2 button:hover{
+  color: #fff;
+  background-color:black ;
+}
+
+
+
+.section1{
+  height: 100%;
+  background-color: #111;
+}
+
+.containercl2{
+  height: 100%;
+
+}
+
+.cl_images{
+  height: 100%;
+    overflow: hidden;
+}
+
+.col-md{
+    height: 100%;;
+    overflow: hidden;
+}
+
+.col-md p{
+  font-size: 10px;
+}
+
+.aboutus img{
+  width: 40%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.aboutus h6{
+  position: relative;
+  font-size: 25px;
+  margin-bottom: 40px;
+  color: #E4dd9c;
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.aboutus p{
+  position: relative;
+  height: 420px;
+  overflow-y: auto;
+  padding: 40px;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-family: Montserrat;
+  padding-top: 0px;
+}
+
+.section2{
+  background-color: #fff;
+}
+
+
+.products{
+  width: 100%;
+  height:80%;
+
+}
+.products h6{
+  position: relative;
+  font-size: 25px;
+  padding: 40px;
+  margin-bottom: 0px;
+  color: #E4dd9c;
+  font-family: Montserrat;
+  text-align: center;
+}
+
+.list{
+  margin-top: 40px;
+  text-align: center;
+}
+.list img{
+  width: 25vw;
+  margin: 20px;
+  transition: .6s;
+}
+
+.list h6{
+  padding: 20px;
+  background-color: #111;
+  position: absolute;
+  display: inline;
+}
+
+.list img:hover{
+  width: 28vw;
+}
+
+.section3{
+  /*background-image: url('stripes1280.jpg');*/
+  background-color: white;
+  height: 100%;
+}
+
+.section4{
+  background-color: #111;
+}
+
+.everything button{
+  position: relative;
+  bottom: -8vh;
+  display: block;
+  width: 40vw;
+  height: 50px;
+  border: 0px;
+  margin: 0 auto;
+  background-color:#111;
+  color: #fff;
+  cursor: pointer;
+  transition: .5s;
+}
+
+.everything button:hover{
+  background-color: #fff;
+  color: #111;
+}
+
+.buttons{
+  display:flex;
+  height: 50px;
+  background-color:#111;
+}
+
+.buttons button{
+  font-family: Montserrat;
+  border: 0px;
+  color: #fff;
+  background-color:#111;
+  width:100%;
+  transition: .5s;
+  cursor: pointer;
+}
+
+.buttons button:hover{
+  color: #111;
+  background-color: #fff;
+}
+
+.menus{
+  background-color: #fff;
+  height: 100%;
+}
+
+.menus img{
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  height: 80%;
+
+}
+
+.alllocals{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+.row{
+  display: flex;
+}
+
+.location{
+  display: inline-grid;
+  margin: 40px;
+}
+
+.logo{
+  text-align: center;
+
+}
+
+
+.time{
+  color:#e4dd9c;
+  margin: 10px;
+}
+
+.time h6{
+  font-family: Montserrat;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.time p{
+  font-family: Montserrat;
+  font-size: 12px;
+  color: #fff;
+
+}
+
+.location img{
+  width: 150px;
+}
+
+.map{
+  text-align: center;
+}
+
+.title h6{
+  position: relative;
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: white;
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 10px;
+
+}
+
+.title img{
+  width: 40%;
+  display: block;
+  position: relative;
+  margin: 0 auto;
+}
+
+.input-group{
+
+  text-align:center;
+}
+
+.input-group input{
+  height: 4vh;
+  width: 60%;
+}
+
+.input-group label{
+  display: block;
+  color: #fff;
+  font-size: 13px;
+  font-family: Montserrat;
+  padding: 10px;
+}
+
+.contact{
+  margin-top: 8%;
+}
+.submit{
+  display: block;
+    margin: auto;
+    width: 30%;
+    height: 40px;
+    color: #111;
+    font-size: 14px;
+    font-family: Montserrat;
+    background-color: #fff;
+    border: 0px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 768px) {
+.section{
+  height: 70%;
+}
+
+  div.split1{
+    height: 90%;
+      width: 100%;
+      position: absolute;
+      bottom: 0px;
+  }
+
+  .allbutton{
+  display: flex;
+  background-color: #111;
+  }
+
+  .split2 button {
+    height: 30px;
+    width: 25vw;
+    font-size: 9px;
+    color: #fff;
+    background-color: #111;
+  }
+
+  .split20{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+  }
+
+  .split10{
+    position: absolute;
+    height: 50%;
+    width: 100%;
+  }
+
+  .aboutus p{
+    font-size: 10px;
+  }
+
+  #wrapper{
+    display: block;
+  }
+
+  #slider img{
+    height: 60%;
+  }
+
+  div.split2{
+ 
+    width: 100%;
+  }
+
+
+
+  img.big{
+    display: none;
+  }
+
+  div.split1 a{
+    display: none;
+  }
+
+  div.split1 p{
+    display: none;
+  }
+
+  .logo p{
+    font-size: 8px;
+  }
+
+  .time p{
+    font-size: 8px;
+  }
+
+  .title h6{
+    font-size: 13px;
+  }
+
+  header{
+    height: 10%;
+  }
+  header img{
+    height: 7vh;
+  }
+
+  .list{
+    display: grid;
+  }
+
+  .list img{
+    width: 50vw;
+  }
+
+  .products h6{
+    font-size: 13px;
+  }
+
+
+}
+
+
+  .section1 {
+    height: 130%;
+    background-color: #111;
+}
+
+.section2 {
+
+}
+
+.section3 {
+  height: 150%;
+}
+
+.menus img {
+    
+
+}
+
+.everything button {
+    bottom: -14vh;
+
+}
+
