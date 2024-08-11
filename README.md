@@ -3,12 +3,15 @@ The Hotel - Hotel Management System
 
 **Homepage**
 
-**Click Login/ Sign-up**
-
+Click Login/ Sign-up
+<br>
 Create Account or Login using credentials 
 Current Users
 
 ![image](https://github.com/user-attachments/assets/95477a4e-8b3f-4b8f-830a-7285f2ce638a)
+
+<br>
+<br>
 
 **Booking**
 
@@ -29,10 +32,14 @@ Current Users
 
 •	Once payment is successful you will be redirected to the dashboard where you will be able to see your booking
 
+<br>
+<br>
 
 **Code Explanation**
 
 Connection to the database is made in the db.php file
+<br>
+<br>
 
 **User Registration**
 
@@ -40,6 +47,8 @@ The login function is written in PHP and communicates with the SQL database to v
 The frontend is found in signup.php
 While the backend script is found in include/signupfunction.php
 
+<br>
+<br>
 
 **User Login**
 
@@ -47,21 +56,30 @@ The login function is written in PHP and communicates with the SQL database to v
 The frontend is found in Login.php
 While the backend script is found in include/logfunction.php
 
+<br>
+<br>
 
 **Dashboard**
 
 The dashboard utilises PHP to communicate with the database and retrieves records from Mysql
 Dash.php
 
+<br>
+<br>
+
 **Booking**
 
 The booking page uses a form to get the details input in the sticky navigation bar and is in Booking.php
 
+<br>
+<br>
+
 **Payment Gateway**
 
 The payment gateway uses Stripe API and is configured in Checkout.php
-
-
+<br>
+<br>
+<br>
 
 **Screenshots**
 
