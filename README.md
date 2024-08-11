@@ -54,6 +54,8 @@ The booking page uses a form to get the details input in the sticky navigation b
 **Payment Gateway**
 The payment gateway uses Stripe API and is configured in Checkout.php
 
+
+
 **Screenshots**
 
 ![Screenshot 2024-08-11 033035](https://github.com/user-attachments/assets/57198410-b2e4-423c-b964-67d7e46b53a9)
